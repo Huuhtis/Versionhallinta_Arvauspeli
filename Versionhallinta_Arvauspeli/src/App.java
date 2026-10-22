@@ -20,12 +20,24 @@ public class App {
             System.out.println("Congratulations!");
             System.out.println("You guessed " + guesses + " times" +".");
             break;
-            }     
+            }   
+            
+                    else if (name.equalsIgnoreCase("Stop"))
+            {
+                guesses--;
+                System.out.println("You guessed " + guesses + " times" +".");
+                break;
+            }
+
+            else {
+                System.out.println("Arvasit väärin, yritä uudestaan");
+            }
+
+        }
+
+       
+
+  }
+
+}
     
-
-
-
-
-    }
-}
-}
