@@ -13,6 +13,15 @@ public class App {
             String name= lukija.nextLine();
             guesses++; 
 
+         //lisätty if lause, että jos arvaa oikein niin siitä tulee ilmoitus ja arvausten määrä ilmoitetaan   
+
+        if (name.equalsIgnoreCase("Emma")) 
+            {
+            System.out.println("Congratulations!");
+            System.out.println("You guessed " + guesses + " times" +".");
+            break;
+            }     
+    
 
 
 
